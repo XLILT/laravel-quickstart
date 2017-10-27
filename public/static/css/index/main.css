@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+    height: 100%;
+}
+
+.index-header {
+    text-align: center;
+    font-family: "楷体","楷体_GB2312";
+}
+
+.index-header > .logo {
+    margin: 0 auto;
+}
+
+@media (max-width: 740px) {
+    .index-main-center {
+        margin: auto;
+        padding: 30px 0 102px;
+        width: 300px;
+    }
+    
+    .logo {
+        width: 117px;
+        height: 94px;
+        background: url(/static/img/index/KunPeng.png) no-repeat;
+    }
+    
+    .index-table-nav {
+        margin: 20px auto;
+        width: 124px;
+    }
+    
+    .input-wrapper > .form-control {
+        height: 47px;
+        padding: 1em .8em;
+    }
+    
+    .button-wrapper {
+        margin-top: 18px;        
+    }   
+    
+    .sign-btn {
+        width: 100%;        
+    }
+}
+
+@media (min-width: 741px) {
+    .index-main {
+        text-align: center;
+        white-space: nowrap;
+        height: 100%;
+        min-height: 720px;
+        margin-top: 5%;
+    }
+    
+    .index-main-center {
+        margin: auto;
+        padding: 30px 0 102px;
+        width: 300px;
+    }
+    
+    .index-main-center {
+        padding: 0;
+        min-height: 590px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        white-space: normal;
+    }
+    
+    .logo {
+        width: 117px;
+        height: 94px;
+        background: url(/static/img/index/KunPeng.png) no-repeat;
+    }
+    
+    .index-table-nav {
+        margin: 20px auto;
+        width: 124px;
+    }
+    
+    .input-wrapper > .form-control {
+        height: 47px;
+        padding: 1em .8em;
+    }
+    
+    .button-wrapper {
+        margin-top: 18px;        
+    }   
+    
+    .sign-btn {
+        width: 100%;        
+    }
+}
