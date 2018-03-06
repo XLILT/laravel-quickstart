@@ -95,6 +95,7 @@
             </div>
         </div>
         <div class="footer">
+	    Copyright Xiaolong Ma. All Rights Reserved
         </div>        
 
 		<script language="javascript" src="/static/lib/jquery/jquery-1.11.0.min.js"></script>
